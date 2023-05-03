@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto", "sans-serif";
+}
+h2{
+    background-color:rgba(31, 102, 171, 1);
+    /* background-color:rgba(31, 102, 171, 1); */
+    color: white;
+    padding: 1.1em;
+    margin-top: -0.3em;
+    text-align: center;
+}
+
+
+table{
+    margin: 6% auto;
+    width: 60%;
+    border-radius: 0.15em;
+    box-shadow:0 0 0.15em 0.15em rgb(234, 226, 226);
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    /* background-color: rgba(229, 250, 253, 1); */
+    background-color:rgba(231, 248, 254, 1)
+}
+td:nth-child(1){
+    text-align: center;
+    width: 5%;
+}
+td:nth-child(3){
+    width: 15%;
+    border: none;
+    padding: 0.2em;
+    text-align: center;
+    color: white;
+    
+}
+td:nth-child(4){
+    width: 15%;
+    border: none;
+    padding: 0.2em;
+    text-align: center;
+    color: white;
+}
+td:nth-child(2){
+    padding-left: 1.2em;
+}
+button{
+    border: none;
+    border-radius: 0.2em;
+    padding: 0.4em;
+    box-shadow:0 0 0.2em 0.2em rgb(234, 226, 226);
+}
+button.demo{
+    /* background:rgba(204, 76, 206, 1); */
+    background: rgba(252, 129, 67, 1);
+}
+button.code{
+    background:rgba(161, 101, 198, 1);
+}
+button:hover{
+    background-color:rgba(204, 76, 206, 1) ;
+    transition: 0.5s;
+  }
+  
+th{
+    /* background-color: rgb(49, 73, 158); */
+    background-color:rgba(31, 102, 171, 1);
+    color: white;
+    border-radius: 0.15em; 
+    padding: 0.6em;
+    border-collapse: collapse;
+    /* border-bottom: none; */
+}
+th:nth-child(2){
+    text-align: left;
+    padding-left: 1.2em;
+}
+
+td{
+    /* border-radius: 0.2em; */
+    padding: .8em;
+    box-align: center;
+}
+
+a{
+    text-decoration:none;
+    padding: 0em 0.1em;
+    color: white !important;
+    font-family: "Roboto", "sans-serif" !important;; 
+
+}
