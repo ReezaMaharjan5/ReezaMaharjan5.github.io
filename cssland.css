@@ -78,7 +78,7 @@ th:nth-child(2){
 }
 
 td{
-    /* border-radius: 0.2em; */
+    /*comment border-radius: 0.2em; */
     padding: .8em;
     box-align: center;
 }
