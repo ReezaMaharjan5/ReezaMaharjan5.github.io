@@ -59,7 +59,7 @@ button.code{
     background:rgba(161, 101, 198, 1);
 }
 button:hover{
-    background-color:rgba(204, 76, 206, 1) ;
+    background-color:rgb(21, 138, 205);
     transition: 0.5s;
   }
   
